@@ -1,0 +1,174 @@
+body{
+    background-color:aquamarine;
+}
+p{
+    color:cornflowerblue;
+}
+h1{
+    color: crimson;
+    text-align:center;
+}
+img{
+    width:60%;
+    height:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.search-bar{
+    position: relative;
+     width: 50%;
+    height: 100px;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.inp1{
+   
+   width: 100%;
+   border-radius: 15px;
+
+}
+.bar{
+   overflow: hidden;
+   background-color: antiquewhite;
+   border: 1px,black,solid;
+}
+.bar a{
+    float: left;
+    display: block;
+   color: black;
+   text-align: center;
+   padding: 15px;
+   font-size: 17px;
+   
+}
+.bar a:hover{
+    background-color:brown;
+    color: black;
+}
+.bar a.first{
+    background-color: cornflowerblue;
+    color:aliceblue;
+}
+.bar input,.bar button{
+  float: right;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-right: 19px;
+  border-radius: 15px;
+}
+#bar-submit{
+    
+    padding: 3px;
+}
+.img_ div{
+    width: 35%;
+    height: 40%;
+}
+
+.fs1 ,.fs2{
+     width: 40%;
+    display: inline;
+     font-size: 20px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     padding: 10px;
+}
+.fs2{
+    margin-left: 30px;
+}
+.img_{
+
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: coral;
+    padding: 15px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.grid-item{
+    border: 3px black solid;
+    text-align: center;
+    padding: 15px;
+    background-color: cadetblue;
+    color: white;
+    font-size: 25px;
+
+}     
+.grid-item:hover{
+    background-color:chartreuse;
+}  
+.img-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: darkorange;
+    padding: 15px;
+    width: 75%;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-item{
+   
+    background-color:cadetblue;
+    border: 3px black solid;
+   
+    height:125x;
+
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     margin-top: 30px;
+}
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+.foot{
+    display: inline;
+    
+  }
