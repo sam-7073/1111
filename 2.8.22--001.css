@@ -172,3 +172,232 @@ img{
     display: inline;
     
   }
+  /*about.html...........................*/
+  .about{
+    background-color: coral;
+  }.h1{
+   color: white;
+    text-align: center;
+  }
+  .container{
+    background-color:  coral;;
+
+  }
+  .marker{
+    width:27%;
+    height: 40px;
+    margin: 15px;
+    display: inline-block;
+    margin-left: 30px ;
+    border-radius: 15px;
+  }
+  .cap{
+    width: 10%;
+    height: 40px;
+
+  }
+  .sleve{
+    width: 75%;
+    height: 40px;
+    border-left:7px double black;
+    border-right: 7px double black;
+    background-color:rgba(136, 114, 86, 0.963);
+    
+  }
+  .cap ,.sleve{
+    display: inline-block;
+  }
+  .red{
+    background:linear-gradient(rgba(173, 13, 13, 0.877),rgba(240, 0, 0, 0.877),rgba(173, 13, 13, 0.877));
+  }
+  .green{
+    background: linear-gradient(rgba(27, 108, 9, 0.877),rgba(56, 231, 17, 0.877),rgba(27, 108, 9, 0.877));
+  }
+  .blue{
+    background: linear-gradient(rgba(4, 42, 73, 0.877),rgba(14, 129, 224, 0.877),rgba(4, 42, 73, 0.877));
+  }
+  
+ /* .dot{
+    
+    background-color: black;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin-top: 9px;
+    margin-left:45px;
+    display: inline-block;
+    
+  }*/
+  .img{
+    width: 30%;
+    height: 30%;
+    display: inline-block;
+  }
+  .conimg{
+    width: 80% ;
+    height: 50%;
+  }
+ .gallary{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4px;
+ }
+ .gallary img{
+    width: 30%;
+    height: 300px;
+    object-fit: cover;
+    padding: 0 1px;
+    margin-top: 10px;
+    border-radius: 10px;
+ }
+ #customer{
+    height: 30px;
+    width: 150px;
+ }
+ .aa{
+    border: 3px solid black;
+    border-radius: 50%;
+    width: 220px;
+    position: absolute;
+    height:220px;
+    max-width: 400px;
+    max-height: 400px;
+    margin-left: 60px;
+    animation: wheel 10s infinite linear;
+ }
+ .bb{
+    border: 3px solid black;
+    border-radius: 50%;
+    width: 220px;
+    position: absolute;
+    height:220px;
+    max-width: 400px;
+    max-height: 400px;
+    margin-left: 60px;
+    animation: wheel 10s infinite linear;
+    margin-left: 500px;
+ }
+ 
+ .cc{
+    border: 3px solid black;
+    border-radius: 50%;
+    width: 220px;
+    position: absolute;
+    height:220px;
+    max-width: 400px;
+    max-height: 400px;
+    margin-left: 60px;
+    animation: wheel 10s infinite linear;
+    margin-left: 1000px;
+ }
+.linea {
+    background-color: black;
+    width: 50%;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0% 0%;
+  }
+  .cabin{
+    background-color: red;
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    border: 2px solid black;
+    transform-origin: 50% 0;
+  
+  }
+  .aa .cabin{
+    background-color: #55ACEE;
+      animation: aa 10s infinite ease-in-out;
+  }
+  .bb .cabin{
+    background-color: #55ACEE;
+      animation: bb 10s infinite ease-in-out;
+  }
+  .cc .cabin{
+    background-color: #55ACEE;
+      animation: cc 10s infinite ease-in-out;
+  }
+.linea:nth-of-type(1){
+    transform : rotate(60deg);
+}
+.linea:nth-of-type(2){
+    transform : rotate(120deg);
+}
+.linea:nth-of-type(3){
+    transform : rotate(180deg);
+}
+.linea:nth-of-type(4){
+    transform : rotate(240deg);
+}
+.linea:nth-of-type(5){
+    transform : rotate(300deg);
+}
+.linea:nth-of-type(6){
+    transform : rotate(360deg);
+}
+.cabin:nth-of-type(1){
+    top:7%;
+   left:3% ;
+}
+.cabin:nth-of-type(2){
+    top:7%;
+    right:3% ;
+}
+.cabin:nth-of-type(3){
+    top: 50%;
+   left: -10%;
+}
+
+.cabin:nth-of-type(4){
+    top:50%;
+    right:-10% ;
+}
+.cabin:nth-of-type(5){
+    top:90%;
+    right:10% ;
+}
+.cabin:nth-of-type(6){
+    top:90%;
+    left:10% ;
+}
+@keyframes aa{
+    0%{transform: rotate(0deg);}
+    25%{background-color: #dd4b39;}
+    50%{background-color:burlywood;}
+    75%{background-color: #dd4b39;}
+    100%{transform: rotate(360deg);}
+}
+@keyframes bb{
+    0%{transform: rotate(0deg);}
+    25%{background-color: #4939dd;}
+    50%{background-color:rgb(222, 135, 187);}
+    75%{background-color: #4939dd;}
+    100%{transform: rotate(360deg);}
+}
+@keyframes cc{
+    0%{transform: rotate(0deg);}
+    25%{background-color: #39dd7b;}
+    50%{background-color:rgb(212, 135, 222);}
+    75%{background-color: #39dd7b;}
+    100%{transform: rotate(360deg);}
+}
+@keyframes wheel{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}.ball{
+    width: 50%;
+    height: 50%;
+    background-color: black;
+    border-radius: 50%;
+   margin: auto;
+   margin-top: 15px;
+   animation: cabin 10s linear infinite;
+    
+}
+
